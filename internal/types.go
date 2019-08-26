@@ -7,6 +7,7 @@ import (
 
 type Options struct {
 	Duration time.Duration
+	Output   string
 	Workers  int
 }
 
